@@ -60,8 +60,8 @@ function App() {
                     <div className={`cuce ${displayDiv === 'cuce' ? 'cuce-active' : ''}`} id="cuce"><span>cuce</span></div>
                 </div>
                 <div className="buttons py-5 d-flex justify-content-center gap-3">
-                    <button onClick={() => puan("deve")} className="btn btn-success">deve</button>
-                    <button onClick={() => puan("cuce")} className="btn btn-success">cuce</button>
+                    <button onClick={() => puan("deve")} className="btn btn-outline-primary">deve</button>
+                    <button onClick={() => puan("cuce")} className="btn btn-outline-primary">cuce</button>
                     <span className="col-lg-4 d-flex align-items-center justify-content-center " style={{backgroundColor: scoreTable, border:"1px solid whitesmoke",borderRadius:"30%"}} id="scoreTable">{score}</span>
 
                 </div>
