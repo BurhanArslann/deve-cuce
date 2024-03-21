@@ -41,7 +41,6 @@ code {
 .cuce-active {
   visibility: visible; /* Görünür hale getir */
   opacity: 1; /* Opacity'yi 1'e ayarlayın */
-
   box-shadow: 0px 0px 5px 5px rgb(173, 189, 173);
   transition-delay: 0s, 0s; /* Geçiş efekti için gecikme */
 }
