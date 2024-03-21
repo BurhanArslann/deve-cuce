@@ -14,9 +14,7 @@ code {
 }
 
 .play{
-  
-  
-  
+  border-radius: 20px;
   width: 30vh;
   height: 30vh;
 
@@ -60,4 +58,11 @@ code {
 
 .red{
   background-color: rgb(182, 69, 69);
+}
+
+.Pop-Up{
+  transition: 1s;
+  font-size: larger;
+  border-radius: 50%;
+  border:3px solid whitesmoke
 }
