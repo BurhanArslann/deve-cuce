@@ -89,7 +89,7 @@ function App() {
                 <div className="buttons py-5 d-flex justify-content-center gap-3">
                     <button onClick={() => puan("deve")} className="btn btn-outline-primary">Deve</button>
                     <button onClick={() => puan("cuce")} className="btn btn-outline-primary">Cuce</button>
-                    <span className="col-lg-4 d-flex align-items-center justify-content-center " style={{width:"10vh", backgroundColor: scoreTable, border: "1px solid whitesmoke", borderRadius: "30%"}} id="scoreTable">
+                    <span className="col-lg-4 d-flex align-items-center justify-content-center " style={{width:"5vh", backgroundColor: scoreTable, border: "1px solid whitesmoke", borderRadius: "50%"}} id="scoreTable">
                         {score}
                     </span>
                
