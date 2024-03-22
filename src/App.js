@@ -7,7 +7,7 @@ function App() {
     const [scoreTable, setScoreTable] = useState("");
     const [play, setPlay] = useState(false);
    
-    const[dogru,setDogru] = useState(0)
+
 
 
 
@@ -17,13 +17,13 @@ function App() {
                 setScore(score + 1);
                 setScoreTable("green");
                 
-                setDogru(dogru +1)
+         
                 
             } else if (option === "cuce" && document.getElementById("cuce").classList.contains("cuce-active")) {
                 setScore(score + 1);
                 setScoreTable("green");
                 
-                setDogru(dogru +1)
+         
             } else {
                 if (score > 0) {
                     setScore(score - 1);
@@ -67,14 +67,9 @@ function App() {
             <button onClick={() => setPlay(false)} className="btn btn-outline-danger">
                 Durdur
             </button>
-            <button onClick={() => (!play) && setScore(0) && setDogru(0)} className="btn btn-outline-warning">Sıfırla</button>
+            <button onClick={() => (!play) && setScore(0) } className="btn btn-outline-warning">Sıfırla</button>
             </div>
-            {play&&(
-                     <div className="d-flex justify-content-center  gap-3">
-                    <span>dogru tıklama: </span>
-                    <span>  {dogru}</span>
-                    </div>
-                )}      
+              
               
             <div className="container d-flex flex-column align-items-center justify-content-center border py-3">
              {play&& (   <div className="play">
